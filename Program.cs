@@ -36,7 +36,7 @@ namespace RoomCalculator
                 bool isInvalid;
                 do
                 {
-                    Console.Write("Would you like to continue (y/n) ?");
+                    Console.Write("Would you like to continue (y/n): ?");
                     answer = Console.ReadLine();
                     isInvalid = answer != "y" && answer != "n";
                     if (isInvalid)
@@ -45,7 +45,7 @@ namespace RoomCalculator
                     }
                     else if (answer == "n")
                     {
-                        Console.WriteLine("Adios Amigo! ");
+                        Console.WriteLine("Gracias por la visita, Adios Amigo! ");
                     }
                    
                     //Console.WriteLine();
